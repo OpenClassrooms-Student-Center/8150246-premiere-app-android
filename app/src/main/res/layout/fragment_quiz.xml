@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="8dp"
+        android:layout_weight="1"
+        android:background="@color/teal_700"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:text="Question ?" />
+
+    <Button
+        android:id="@+id/answer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:paddingVertical="16dp"
+        android:paddingHorizontal="32dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/purple_200"
+        tools:text="Answer1" />
+
+    <Button
+        android:id="@+id/answer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:paddingVertical="16dp"
+        android:paddingHorizontal="32dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/purple_200"
+        tools:text="Answer2" />
+
+    <Button
+        android:id="@+id/answer3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:paddingVertical="16dp"
+        android:paddingHorizontal="32dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/purple_200"
+        tools:text="Answer3" />
+
+    <Button
+        android:id="@+id/answer4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:paddingVertical="16dp"
+        android:paddingHorizontal="32dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/purple_200"
+        tools:text="Answer4" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/validityText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/purple_700"
+            android:layout_margin="8dp"
+            android:padding="16dp"
+            android:textSize="20sp"
+            tools:text="Bonne réponse !"
+            android:textAlignment="textEnd"
+            android:visibility="invisible"
+            tools:visibility="visible"/>
+        <Button
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/purple_700"
+            android:gravity="bottom"
+            android:layout_margin="8dp"
+            android:padding="16dp"
+            android:textSize="20sp"
+            android:text="@string/next"
+            android:visibility="invisible"
+            tools:visibility="visible"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SuperQuiz</string>
+    <string name="welcome">Welcome to Super Quiz!</string>
+
+    <string name="welcome_what_s_your_name">What\'s your name?</string>
+    <string name="please_type_your_name">Please type your name</string>
+    <string name="next">Next</string>
+    <string name="good_answer">💪 Good answer</string>
+    <string name="bad_answer">😢 Bad answer…</string>
+    <string name="finish">Finish</string>
+    <string name="result_dialog_title">Finished !</string>
+    <string name="result_dialog_message">Your final score is %1$d on %2$d.</string>
+    <string name="let_s_play">Let\'s play</string>
+
+
+</resources>
