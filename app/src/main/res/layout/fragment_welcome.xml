@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.main.WelcomeFragment"
+    tools:context=".ui.WelcomeFragment"
     android:gravity="center_horizontal"
     android:orientation="vertical">
 
@@ -17,7 +17,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="What's yout name"
+        android:text="What's your name"
         android:textSize="20sp"
         android:layout_margin="24dp"/>
 
@@ -28,6 +28,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:minHeight="48dp"
+        android:textSize="14sp"
         android:hint="Please type your name"/>
 
     <Button
